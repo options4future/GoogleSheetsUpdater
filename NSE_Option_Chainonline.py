@@ -1,4 +1,4 @@
-# daily ru
+# daily run
 
 import requests
 import pandas as pd
