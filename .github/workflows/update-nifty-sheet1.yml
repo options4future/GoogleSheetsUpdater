@@ -33,7 +33,9 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install requests pandas gspread oauth2client urllib3 pytz lxml html5lib
+          pip install -r requirements.txt || true
+          pip install requests pandas gspread oauth2client urllib3 pytz lxml html5lib beautifulsoup4
+
 
       - name: Set up Google credentials
         run: |
