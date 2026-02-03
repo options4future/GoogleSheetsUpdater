@@ -23,10 +23,10 @@ SHEET_ID = os.getenv("SHEET_ID", "1_RUwNbnQRcVRJOOsj6wpKVp__pLRt0hM9YmZsRHyNK8")
 CREDENTIALS_PATH = os.getenv("GOOGLE_CREDENTIALS_PATH", "service_account.json")
 
 SHEET_CONFIG = [
- {"sheet_name": "sheet111", "url": "https://www.moneycontrol.com/indices/fno/view-option-chain/NIFTY/2026-02-03"},
-    {"sheet_name": "sheet222", "url": "https://www.moneycontrol.com/indices/fno/view-option-chain/NIFTY/2026-02-10"},
-    {"sheet_name": "sheet333", "url": "https://www.moneycontrol.com/indices/fno/view-option-chain/NIFTY/2026-02-17"},
-    {"sheet_name": "sheet444", "url": "https://www.moneycontrol.com/indices/fno/view-option-chain/NIFTY/2026-02-24"},
+ {"sheet_name": "sheet111", "url": "https://www.moneycontrol.com/indices/fno/view-option-chain/NIFTY/2026-02-10"},
+    {"sheet_name": "sheet222", "url": "https://www.moneycontrol.com/indices/fno/view-option-chain/NIFTY/2026-02-17"},
+    {"sheet_name": "sheet333", "url": "https://www.moneycontrol.com/indices/fno/view-option-chain/NIFTY/2026-02-24"},
+    {"sheet_name": "sheet444", "url": "https://www.moneycontrol.com/indices/fno/view-option-chain/NIFTY/2026-03-03"},
     {"sheet_name": "sheet555", "url": "https://www.moneycontrol.com/indices/fno/view-option-chain/BANKNIFTY/2026-02-24"},
 
 ]
